@@ -1,180 +1,180 @@
 {
-    "pageTitle": "Azure OpenAI + AI Search",
-    "headerTitle": "Azure OpenAI + AI Search",
+    "pageTitle": "AI MyMeet",
+    "headerTitle": "AI MyMeet",
     "chat": "Chat",
-    "qa": "Ask a question",
-    "login": "Login",
-    "logout": "Logout",
-    "clearChat": "Clear chat",
+    "qa": "Still et spørsmål",
+    "login": "Logg inn",
+    "logout": "Logg ut",
+    "clearChat": "Tøm chat",
     "history": {
-        "chatHistory": "Chat history",
-        "openChatHistory": "Open chat history",
-        "noHistory": "No chat history",
-        "deleteModalTitle": "Delete chat history",
-        "deleteModalDescription": "This action cannot be undone. Delete this chat history?",
-        "deleteLabel": "Delete",
-        "cancelLabel": "Cancel",
-        "today": "Today",
-        "yesterday": "Yesterday",
-        "last7days": "Last 7 days",
-        "last30days": "Last 30 days"
+        "chatHistory": "Chathistorikk",
+        "openChatHistory": "Åpne chathistorikk",
+        "noHistory": "Ingen chathistorikk",
+        "deleteModalTitle": "Slett chathistorikk",
+        "deleteModalDescription": "Denne handlingen kan ikke angres. Slett denne chathistorikken?",
+        "deleteLabel": "Slett",
+        "cancelLabel": "Avbryt",
+        "today": "I dag",
+        "yesterday": "I går",
+        "last7days": "Siste 7 dager",
+        "last30days": "Siste 30 dager"
     },
     "upload": {
-        "fileLabel": "Upload file:",
-        "uploadedFilesLabel": "Previously uploaded files:",
-        "noFilesUploaded": "No files uploaded yet",
-        "loading": "Loading...",
-        "manageFileUploads": "Manage file uploads",
-        "uploadingFiles": "Uploading files...",
-        "uploadedFileError": "Error uploading file - please try again or contact admin.",
-        "deleteFile": "Delete file",
-        "deletingFile": "Deleting file...",
-        "errorDeleting": "Error deleting.",
-        "fileDeleted": "File deleted"
+        "fileLabel": "Last opp fil:",
+        "uploadedFilesLabel": "Tidligere opplastede filer:",
+        "noFilesUploaded": "Ingen filer er lastet opp ennå",
+        "loading": "Laster...",
+        "manageFileUploads": "Administrer filopplastinger",
+        "uploadingFiles": "Laster opp filer...",
+        "uploadedFileError": "Feil ved opplasting av fil - prøv igjen eller kontakt administrator.",
+        "deleteFile": "Slett fil",
+        "deletingFile": "Sletter fil...",
+        "errorDeleting": "Feil ved sletting.",
+        "fileDeleted": "Fil slettet"
     },
-    "developerSettings": "Developer settings",
+    "developerSettings": "Utviklerinnstillinger",
 
-    "chatEmptyStateTitle": "Chat with your data",
-    "chatEmptyStateSubtitle": "Ask anything or try an example",
+    "chatEmptyStateTitle": " Still meg et spørsmål..",
+    "chatEmptyStateSubtitle": "Ofte stilte spørsmål",
     "defaultExamples": {
-        "1": "What is included in my Northwind Health Plus plan that is not in standard?",
-        "2": "What happens in a performance review?",
-        "3": "What does a Product Manager do?",
-        "placeholder": "Type a new question (e.g. does my plan cover annual eye exams?)"
+        "1": "Hvordan sender jeg ut invitasjoner til deltakere på MyMeet?",
+        "2": "Hvordan laster jeg opp et sakspapir?",
+        "3": "Hvordan starter jeg et Dagsordenpunkt?",
+        "placeholder": "Still et nytt spørsmål (f.eks. Kan jeg endre navn på møtet?)"
     },
-    "askTitle": "Ask your data",
+    "askTitle": "Finn ut",
     "gpt4vExamples": {
-        "1": "Compare the impact of interest rates and GDP in financial markets.",
-        "2": "What is the expected trend for the S&P 500 index over the next five years? Compare it to the past S&P 500 performance",
-        "3": "Can you identify any correlation between oil prices and stock market trends?",
-        "placeholder": "Example: Does my plan cover annual eye exams?"
+        "1": "Hvor står det om møteopprettelse?",
+        "2": "Hvordan redigerer jeg en bruker?",
+        "3": "Kan du hjelpe meg med å opprette et nytt møte?",
+        "placeholder": "Eksempel: På hvilken side finner jeg ting om redaksjonskomite?"
     },
-    "generatingAnswer": "Generating answer",
-    "citationWithColon": "Citation:",
-    "followupQuestions": "Follow-up questions:",
+    "generatingAnswer": "Generer svar",
+    "citationWithColon": "Referanse:",
+    "followupQuestions": "Oppfølgingsspørsmål:",
 
     "tooltips": {
-        "submitQuestion": "Submit question",
-        "askWithVoice": "Ask question with voice",
-        "stopRecording": "Stop recording question",
-        "showThoughtProcess": "Show thought process",
-        "showSupportingContent": "Show supporting content",
-        "speakAnswer": "Speak answer",
+        "submitQuestion": "Send spørsmål",
+        "askWithVoice": "Still spørsmål med stemme",
+        "stopRecording": "Stopp opptak av spørsmål",
+        "showThoughtProcess": "Vis tankeprosess",
+        "showSupportingContent": "Vis støttende innhold",
+        "speakAnswer": "Les opp svaret",
         "info": "Info",
-        "save": "Save",
-        "copy": "Copy",
-        "copied": "Copied!"
+        "save": "Lagre",
+        "copy": "Kopier",
+        "copied": "Kopiert!"
     },
 
     "headerTexts":{
-        "thoughtProcess": "Thought Process",
-        "supportingContent": "Supporting Content",
-        "citation": "Citation"
+        "thoughtProcess": "Tankeprosess",
+        "supportingContent": "Støttende innhold",
+        "citation": "Referanse"
     },
 
     "labels": {
-        "toggleMenu": "Toggle menu",
-        "languagePicker": "Select your language",
-        "headerText": "Configure answer generation",
-        "closeButton": "Close",
-        "promptTemplate": "Override prompt template",
-        "temperature": "Temperature",
+        "toggleMenu": "Vis/skjul meny",
+        "languagePicker": "Velg språk",
+        "headerText": "Konfigurer svargenerering",
+        "closeButton": "Lukk",
+        "promptTemplate": "Overstyr promptmal",
+        "temperature": "Temperatur",
         "seed": "Seed",
-        "minimumSearchScore": "Minimum search score",
-        "minimumRerankerScore": "Minimum reranker score",
-        "retrieveCount": "Retrieve this many search results:",
-        "maxSubqueryCount": "Max subqueries",
-        "resultsMergeStrategy": "Results merge strategy",
+        "minimumSearchScore": "Minimum søkescore",
+        "minimumRerankerScore": "Minimum rerankingscore",
+        "retrieveCount": "Hent så mange søkeresultater:",
+        "maxSubqueryCount": "Maks delspørringer",
+        "resultsMergeStrategy": "Strategi for sammenslåing av resultater",
         "resultsMergeStrategyOptions": {
-            "interleaved": "Interleaved",
-            "descending": "Descending"
+            "interleaved": "Vekslende",
+            "descending": "Synkende"
         },
-        "includeCategory": "Include category",
+        "includeCategory": "Inkluder kategori",
         "includeCategoryOptions": {
-            "all": "All"
+            "all": "Alle"
         },
-        "excludeCategory": "Exclude category",
-        "useSemanticRanker": "Use semantic ranker for retrieval",
-        "useSemanticCaptions": "Use semantic captions",
-        "useQueryRewriting": "Use query rewriting for retrieval",
-        "reasoningEffort": "Reasoning effort",
+        "excludeCategory": "Ekskluder kategori",
+        "useSemanticRanker": "Bruk semantisk rangerer for søk",
+        "useSemanticCaptions": "Bruk semantiske bildetekster",
+        "useQueryRewriting": "Bruk omskriving av spørring for søk",
+        "reasoningEffort": "Resonneringsinnsats",
         "reasoningEffortOptions": {
-            "minimal": "Minimal (GPT-5 only)",
-            "low": "Low",
-            "medium": "Medium",
-            "high": "High"
+            "minimal": "Minimal (kun GPT-5)",
+            "low": "Lav",
+            "medium": "Middels",
+            "high": "Høy"
         },
-        "useSuggestFollowupQuestions": "Suggest follow-up questions",
-        "useAgenticRetrieval": "Use agentic retrieval",
-        "useGPT4V": "Use GPT vision model",
+        "useSuggestFollowupQuestions": "Foreslå oppfølgingsspørsmål",
+        "useAgenticRetrieval": "Bruk agentisk gjenfinning",
+        "useGPT4V": "Bruk GPT visjonsmodell",
         "gpt4VInput": {
-            "label": "GPT vision model inputs",
+            "label": "GPT visjonsmodell-inndata",
             "options": {
-                "textAndImages": "Images and text",
-                "images": "Images",
-                "texts": "Text"
+                "textAndImages": "Bilder og tekst",
+                "images": "Bilder",
+                "texts": "Tekst"
             }
         },
         "retrievalMode": {
-            "label": "Retrieval mode",
+            "label": "Hentemodus",
             "options": {
-                "hybrid": "Vectors + Text (Hybrid)",
-                "vectors": "Vectors",
-                "texts": "Text"
+                "hybrid": "Vektorer + Tekst (Hybrid)",
+                "vectors": "Vektorer",
+                "texts": "Tekst"
             }
         },
         "vector": {
-            "label": "Vector fields (Multi-query vector search)",
+            "label": "Vektorfelt (Multi-query vektorsøk)",
             "options": {
-                "embedding": "Text Embeddings",
-                "imageEmbedding": "Image Embeddings",
-                "both": "Text and Image embeddings"
+                "embedding": "Tekst-embedding",
+                "imageEmbedding": "Bilde-embedding",
+                "both": "Tekst- og bilde-embedding"
             }
         },
-        "useOidSecurityFilter": "Use oid security filter",
-        "useGroupsSecurityFilter": "Use groups security filter",
-        "shouldStream": "Stream chat completion responses"
+        "useOidSecurityFilter": "Bruk oid-sikkerhetsfilter",
+        "useGroupsSecurityFilter": "Bruk gruppe-sikkerhetsfilter",
+        "shouldStream": "Strøm chat-svar"
     },
 
     "helpTexts": {
         "promptTemplate":
-            "Overrides the prompt used to generate the answer based on the question and search results. To append to existing prompt instead of replace whole prompt, start your prompt with '>>>'.",
+            "Overstyrer prompten som brukes til å generere svaret basert på spørsmålet og søkeresultatene. For å legge til eksisterende prompt i stedet for å erstatte hele, start prompten med '>>>'.",
         "temperature":
-            "Sets the temperature of the request to the LLM that generates the answer. Higher temperatures result in more creative responses, but they may be less grounded.",
-        "seed": "Sets a seed to improve the reproducibility of the model's responses. The seed can be any integer.",
+            "Angir temperaturen på forespørselen til LLM som genererer svaret. Høyere temperatur gir mer kreative svar, men de kan være mindre forankret.",
+        "seed": "Angir et seed for å forbedre reproduserbarheten til modellens svar. Seed kan være et hvilket som helst heltall.",
         "searchScore":
-             "Sets a minimum score for search results coming back from Azure AI search. The score range depends on whether you're using hybrid (default), vectors only, or text only.",
+             "Angir en minimumsscore for søkeresultater fra Azure AI-søk. Scorerammen avhenger av om du bruker hybrid (standard), kun vektorer eller kun tekst.",
         "rerankerScore":
-             "Sets a minimum score for search results coming back from the semantic reranker. The score always ranges between 0-4. The higher the score, the more semantically relevant the result is to the question.",
+             "Angir en minimumsscore for søkeresultater fra den semantiske rangereren. Scoren er alltid mellom 0-4. Jo høyere score, jo mer semantisk relevant er resultatet for spørsmålet.",
         "retrieveNumber":
-             "Sets the number of search results to retrieve from Azure AI search. More results may increase the likelihood of finding the correct answer, but may lead to the model getting 'lost in the middle'.",
+             "Angir hvor mange søkeresultater som skal hentes fra Azure AI-søk. Flere resultater kan øke sannsynligheten for å finne riktig svar, men kan gjøre at modellen 'mister tråden'.",
         "maxSubqueryCount":
-            "Sets the maximum number of subqueries to use for the agentic retrieval query plan.",
+            "Angir maksimalt antall delspørringer som skal brukes for agentisk gjenfinningsplan.",
         "resultsMergeStrategy":
-            "Sets the strategy for merging results from multiple subqueries. Interleaved picks the top results from each subquery in round robin order, while descending sorts all results by reranker score.",
+            "Angir strategien for å slå sammen resultater fra flere delspørringer. Vekslende velger toppresultater fra hver delspørring i rundgang, mens synkende sorterer alle resultater etter rerankingscore.",
         "includeCategory":
-            "Specifies a category to include in the search results. There are no categories used in the default data set.",
+            "Spesifiserer en kategori som skal inkluderes i søkeresultatene. Det er ingen kategorier i standarddatasettet.",
          "excludeCategory":
-            "Specifies a category to exclude from the search results. There are no categories used in the default data set.",
+            "Spesifiserer en kategori som skal ekskluderes fra søkeresultatene. Det er ingen kategorier i standarddatasettet.",
          "useSemanticReranker":
-            "Enables the Azure AI Search semantic ranker, a model that re-ranks search results based on semantic similarity to the user's query.",
+            "Aktiverer Azure AI Search semantisk rangerer, en modell som rangerer søkeresultater basert på semantisk likhet med brukerens spørsmål.",
         "useQueryRewriting":
-            "Enables Azure AI Search query rewriting, a process that modifies the user's query to improve search results. Requires semantic ranker to be enabled.",
+            "Aktiverer omskriving av spørring i Azure AI Search, en prosess som endrer brukerens spørring for å forbedre søkeresultatene. Krever at semantisk rangerer er aktivert.",
         "reasoningEffort":
-            "Sets the reasoning effort for the LLM. Higher values result in more reasoning, but may take longer to generate a response. The default is medium.",
+            "Angir resonneringsinnsatsen for LLM. Høyere verdier gir mer resonnering, men kan ta lengre tid å generere svar. Standard er middels.",
         "useSemanticCaptions":
-             "Sends semantic captions to the LLM instead of the full search result. A semantic caption is extracted from a search result during the process of semantic ranking.",
-        "suggestFollowupQuestions": "Asks the LLM to suggest follow-up questions based on the user's query.",
-         "useGPT4Vision": "Uses GPT-4-Turbo with Vision to generate responses based on images and text from the index.",
+             "Sender semantiske bildetekster til LLM i stedet for hele søkeresultatet. En semantisk bildetekst hentes ut fra et søkeresultat under semantisk rangering.",
+        "suggestFollowupQuestions": "Ber LLM foreslå oppfølgingsspørsmål basert på brukerens spørsmål.",
+         "useGPT4Vision": "Bruker GPT-4-Turbo med Vision for å generere svar basert på bilder og tekst fra indeksen.",
         "vectorFields":
-            "Specifies which embedding fields in the Azure AI Search Index will be searched, both the 'Images and text' embeddings, 'Images' only, or 'Text' only.",
+            "Spesifiserer hvilke embedding-felt i Azure AI Search-indeksen som skal søkes i, både 'Bilder og tekst'-embedding, kun 'Bilder' eller kun 'Tekst'.",
         "gpt4VisionInputs":
-            "Sets what will be sent to the vision model. 'Images and text' sends both images and text to the model, 'Images' sends only images, and 'Text' sends only text.",
+            "Angir hva som skal sendes til visjonsmodellen. 'Bilder og tekst' sender begge deler til modellen, 'Bilder' sender kun bilder, og 'Tekst' sender kun tekst.",
         "retrievalMode":
-            "Sets the retrieval mode for the Azure AI Search query. `Vectors + Text (Hybrid)` uses a combination of vector search and full text search, `Vectors` uses only vector search, and `Text` uses only full text search. Hybrid is generally optimal.",
-        "streamChat": "Continuously streams the response to the chat UI as it is generated.",
-        "useOidSecurityFilter": "Filter search results based on the authenticated user's OID.",
-        "useGroupsSecurityFilter": "Filter search results based on the authenticated user's groups.",
-        "useAgenticRetrieval": "Use agentic retrieval from Azure AI Search for multi-query planning. Always uses semantic ranker."
+            "Angir hentemodus for Azure AI Search-spørringen. `Vektorer + Tekst (Hybrid)` bruker en kombinasjon av vektorsøk og fulltekstsøk, `Vektorer` bruker kun vektorsøk, og `Tekst` bruker kun fulltekstsøk. Hybrid er vanligvis optimalt.",
+        "streamChat": "Strømmer svaret til chatten etter hvert som det genereres.",
+        "useOidSecurityFilter": "Filtrer søkeresultater basert på den autentiserte brukerens OID.",
+        "useGroupsSecurityFilter": "Filtrer søkeresultater basert på den autentiserte brukerens grupper.",
+        "useAgenticRetrieval": "Bruk agentisk gjenfinning fra Azure AI Search for multi-query-planlegging. Bruker alltid semantisk rangerer."
     }
 }
