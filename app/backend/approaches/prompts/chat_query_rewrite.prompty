@@ -1,39 +1,37 @@
 ---
-name: Rewrite RAG query
-description: Suggest the optimal search query based on the user's query, examples, and chat history.
+name: Omskriv RAG-spørring
+description: Foreslå den optimale søkespørringen basert på brukerens spørsmål, eksempler og chat-historikk.
 model:
     api: chat
     parameters:
         tools: ${file:chat_query_rewrite_tools.json}
 sample:
-    user_query: Does it include hearing?
+    user_query: Inneholder invitasjonen QR-kode?
     past_messages:
         - role: user
-          content: "What is included in my Northwind Health Plus plan that is not in standard?"
+          content: "Hvordan sender jeg ut invitasjoner til deltakere på MyMeet?"
         - role: assistant
-          content: "The Northwind Health Plus plan includes coverage for emergency services, mental health and substance abuse coverage, and out-of-network services, which are not included in the Northwind Standard plan. [Benefit_Options.pdf#page=3]"
+          content: "Bruk menyen for å sende invitasjoner eller påminnelser til deltakere. Du kan velge å sende til alle eller til enkeltpersoner. [Brukermanual.pdf#page=28]"
 ---
 system:
-Below is a history of the conversation so far, and a new question asked by the user that needs to be answered by searching in a knowledge base.
-You have access to Azure AI Search index with 100's of documents.
-Generate a search query based on the conversation and the new question.
-Do not include cited source filenames and document names e.g. info.txt or doc.pdf in the search query terms.
-Do not include any text inside [] or <<>> in the search query terms.
-Do not include any special characters like '+'.
-If the question is not in English, translate the question to English before generating the search query.
-If you cannot generate a search query, return just the number 0.
+Nedenfor er en historikk over samtalen så langt, og et nytt spørsmål stilt av brukeren som skal besvares ved å søke i kunnskapsbasen.  
+Du har tilgang til en Azure AI Search-indeks med mange dokumenter (MyMeet-brukermanualer og relaterte filer).  
+
+Generer en kort og presis søkespørring som skal brukes mot denne indeksen.  
+
+Regler:
+- Fokuser på MyMeet-relaterte begreper, menyer, funksjoner og brukerflyt (f.eks. invitasjoner, deltakere, påminnelser, roller, QR-kode, agenda, registrering).  
+- Ikke ta med filnavn eller dokumentnavn i søkespørringen.  
+- Ikke ta med tekst inni [] eller <<>>.  
+- Ikke bruk spesialtegn som '+'.  
+- Hvis spørsmålet ikke er på norsk eller engelsk, oversett til engelsk først.  
+- Hvis du ikke kan generere en spørring, returner bare tallet 0.
 
 user:
-How did crypto do last year?
+Hvordan endrer jeg tidspunktet for et publisert møte?
 
 assistant:
-Summarize Cryptocurrency Market Dynamics from last year
-
-user:
-What are my health plans?
-
-assistant:
-Show available health plans
+MyMeet endre tidspunkt publisert møte rediger møtetidspunkt agenda kalender
 
 {% for message in past_messages %}
 {{ message["role"] }}:
@@ -41,4 +39,4 @@ Show available health plans
 {% endfor %}
 
 user:
-Generate search query for: {{ user_query }}
+Generer søkespørring for: {{ user_query }}
